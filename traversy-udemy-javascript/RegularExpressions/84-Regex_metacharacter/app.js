@@ -7,9 +7,9 @@ re = /hello/i;
 re = /^h/i;           // Must start with
 re = / world$/i;     // Must ends with
 re = /^hello$/i;     // Must begin and end with
-re = /h.llo/i;      // Matches any ONE character
-re = /h*llo/i;      // Matches any character 0 or more times
-re = /gre?a?y/i;    // Optional character
+re = /h.llo/i;      // Matches any ONE character . 자리에 뭐가 와도 된다~ 꼭 1개
+re = /h*llo/i;      // Matches any character 0 or more times 0개 이상
+re = /gre?a?y/i;    // Optional character e와 a는 optional
 re = /gre?a?y\?/i;    // Escape character 
 
 
