@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import './App.css';
 import Navbar from './components/layout/Navbar';
+import UserItem from './components/users/UserItem';
 
 class App extends Component {
 
@@ -8,6 +9,7 @@ class App extends Component {
     return (
       <div>
         <Navbar title="prop Title" />
+        <UserItem />
       </div>
     );
   }
